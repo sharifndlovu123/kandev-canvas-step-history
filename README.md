@@ -1,10 +1,15 @@
 # Step History — a Kandev canvas
 
-A read-only [Kandev canvas](https://github.com/kdlbs/kandev/blob/main/docs/public/canvases.md)
-that shows a task's own recorded movement through its workflow: the
-workflow's full defined step sequence as context, a per-step visit tally,
-and a chronological log of every move the task has made — newest first,
-forward and backward moves visually distinguished, current step flagged.
+A [canvas](https://github.com/kdlbs/kandev/blob/main/docs/public/canvases.md)
+for [Kandev](https://github.com/kdlbs/kandev), the autonomous coding-agent
+platform. This package has no dependency of its own — install it inside a
+running Kandev instance (see [Install](#install) below).
+
+A read-only canvas that shows a task's own recorded movement through its
+workflow: the workflow's full defined step sequence as context, a per-step
+visit tally, and a chronological log of every move the task has made —
+newest first, forward and backward moves visually distinguished, current
+step flagged.
 
 ![Step History canvas](preview.png)
 
