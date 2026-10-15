@@ -1,0 +1,31 @@
+id: step-history
+api_version: 2
+version: 1.0.0
+display_name: Step History
+description: Shows the workflow's full step sequence, visits-per-step counts, and a simplified chronological transition history for this task.
+author: Sharif Ndlovu
+categories: []
+repo_url: https://github.com/sharifndlovu123/kandev-canvas-step-history
+base_url: ""
+endpoints:
+    health: ""
+    events: ""
+    webhooks: ""
+capabilities:
+    api_read:
+        - tasks
+        - workflows
+ui:
+    web_apps:
+        - key: main
+          title: Task Step History
+          entry: index.html
+          placements:
+            - task-canvas
+            - workspace-canvas
+min_kandev_version: 0.95.0
+distribution:
+    schema_version: 1
+    kind: canvas
+    license: MIT
+    source_mode: static
